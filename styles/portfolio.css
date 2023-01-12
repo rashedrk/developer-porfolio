@@ -1,0 +1,135 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+}
+/* header and navigation styles */
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin:0 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;;
+}
+/* header banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 5px;
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section styles */
+.about-me{
+    margin-top: 130px;
+    padding: 130px 156px;
+    text-align: center;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.section-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-size: 20px;
+}
+/* what I do section styles */
+.what-i-do{
+    margin-top: 130px;
+    text-align: center;
+}
+.skill-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+    text-align: left;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
