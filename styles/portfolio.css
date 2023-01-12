@@ -12,6 +12,18 @@
     color: white;
     background-color: #FD6E0A;
     padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.btn-secondary{
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    background-color: white;
+    border-radius: 5px;
+    padding: 18px 25px;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 20px;
 }
 /* header and navigation styles */
 .header{
@@ -140,6 +152,9 @@ section{
     display: flex;
     gap: 20px;
 }
+.resume .section-title{
+    margin-bottom: 113px;
+}
 .resume-items > h2{
     font-weight: 700;
     font-size: 30px;
@@ -168,4 +183,34 @@ section{
 .resume .button{
     text-align: center;
     margin-top: 20px;
+}
+/* contact section styles */
+.contact{
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 117px;
+    padding: 130px 230px ;
+}
+.contact-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.contact-description{
+    color: #474747;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.contact input[type=text],input[type=email], textarea {
+    border: 0;
+    border-radius: 5px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+.contact input[type=text]{
+    margin-top: 28px;
+}
+.social a{
+    margin-right: 10px;
 }
